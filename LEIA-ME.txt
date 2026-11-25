@@ -1,0 +1,12 @@
+GERAR O GrandTheftAuxilio.exe (Windows 10/11, sem instalar nada)
+1. Extraia esta pasta.
+2. De dois cliques em build.bat.
+3. O resultado fica em dist\ :
+     GrandTheftAuxilio.exe
+     launcher-config.json
+
+Distribua os DOIS arquivos juntos (na mesma pasta).
+
+TROCAR O MAGNET SEM RECOMPILAR
+Abra launcher-config.json (Bloco de Notas), altere "magnet_link", salve.
+O launcher le o arquivo a cada clique em BAIXAR JOGO.
